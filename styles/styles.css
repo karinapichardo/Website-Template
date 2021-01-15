@@ -12,8 +12,7 @@ a {
     text-decoration: none;
 }
 
-
-a.active {
+a:active {
     color: #1bbfac;
 }
 
@@ -30,7 +29,7 @@ ul {
     text-align: center;
 }
 
-.menu:active,
+.menu:focus,
 .menu:hover {
     color: #1bbfac;
 }
@@ -107,4 +106,10 @@ h3 {
     br {
         display: none;
     }
+}
+
+/* gallery page styles */
+
+#Gallery-Title {
+    width: 180px;
 }
