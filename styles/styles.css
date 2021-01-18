@@ -124,3 +124,12 @@ h3 {
 #single-paragraph {
     margin-bottom: 80px;
 }
+
+/*blog styles page */
+.blog-img {
+    border: 2px solid black;
+}
+
+h3 {
+    margin-top: 90px;
+}
