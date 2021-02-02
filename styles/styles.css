@@ -179,10 +179,15 @@ textarea {
     height: 5em;
 }
 
-.button {
-    padding-left: 90px;
+#send {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
 }
 
-button {
-    margin-left: .5em;
+#send:hover {
+    background-color: white;
+    color: black;
 }
