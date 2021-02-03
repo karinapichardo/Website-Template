@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="script.js"></script>
     <title>Contact</title>
 </head>
 
@@ -45,12 +46,12 @@
                     <textarea name="message" id="message">message</textarea>
                 </li>
                 <li>
-                    <input type="submit" name="send" id="send" value="send">
+                    <button type="submit" id="send" onclick="validation();">SEND</button>
                 </li>
-
             </ul>
         </form>
         <br>
+        <h4 id="output"></h4>
 
     </section>
 
